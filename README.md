@@ -6,10 +6,10 @@ STEPS:
 1. TensorFlow Installation
 A typical user can simply install it on Anaconda Prompt with following commands.
 
-#for cpu
-pip install tensorflow
-#for gpu
-pip install tensorflow-gpu
+#for cpu:
+  pip install tensorflow
+#for gpu:
+  pip install tensorflow-gpu
 
 2.Now you need to download the TensorFlow model repository from
  
@@ -24,7 +24,9 @@ This can be done via Protobuf Compilation. For achieving this we we’ll need Go
 Further , inside of tensorflow/models/research/ directory :
 
 Hit the following command:
+
 #from tensorflow/models/research
+
 protoc object_detection/protos/*.proto --python_out=.
 
 Now it will successfully converted and executed.
