@@ -7,8 +7,11 @@ STEPS:
 A typical user can simply install it on Anaconda Prompt with following commands.
 
 #for cpu:
+
   pip install tensorflow
+  
 #for gpu:
+
   pip install tensorflow-gpu
 
 2.Now you need to download the TensorFlow model repository from
