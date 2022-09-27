@@ -2,7 +2,7 @@
 
 The system is designed in such a way in which the blind person can take the help of An Application which inturn laptop based network system. It works on object detection using ssd_mobile.net algorithm and TENSORFLOW APIs . It has a core feature of approximate distance calculation and Voice - Based wireless feedack generation w.r.t the DISTANCE CALCULATION. It makes the work of Blind easy,efficient and reliable by sending wireless Voice based feedback whether the particular object is either too close to him or is it at a safer distance. The same system can be used from Obstacle Detection. 
 
-READ INSTRUCTION_EXCUTION FILE FOR FULL EXECTION(given in repository)
+READ INSTRUCTION_EXCUTION FILE FOR FULL EXECUTION(given in repository)
 
 STEPS:
 1. TensorFlow Installation
